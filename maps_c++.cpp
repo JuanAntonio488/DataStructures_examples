@@ -7,6 +7,9 @@ using namespace std;
 
 int main(){
 	
+	//map <string, int> agenda;
+	//map <string,int>::iterator it;
+	
 	unordered_map <string, int> agenda;
 	unordered_map <string,int>::iterator it;
 	
