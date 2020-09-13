@@ -12,10 +12,10 @@ int main(){
 	
 	agenda.insert(make_pair("Juan",23));
 	agenda.insert(make_pair("Antonio",23));
-	agenda.insert(make_pair("Maria",23));
-	agenda.insert(make_pair("Fernanda",23));
+	agenda.insert(make_pair("Maria",19));
+	agenda.insert(make_pair("Fernanda",19));
 	
-	agenda["Santi"] = 15;
+	agenda["Santi"] = 13;
 	
 	it = agenda.begin();
 	
