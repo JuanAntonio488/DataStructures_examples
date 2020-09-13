@@ -15,7 +15,7 @@ int main(){
 	agenda.insert(make_pair("Maria",23));
 	agenda.insert(make_pair("Fernanda",23));
 	
-	agenda["Luis"] = 15;
+	agenda["Santi"] = 15;
 	
 	it = agenda.begin();
 	
