@@ -1,3 +1,7 @@
+/*
+How to implement a LinkedList?
+URL: https://www.youtube.com/watch?v=njTh_OwMljA&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=5
+*/
 class Node{
   Node next;
   int data;
