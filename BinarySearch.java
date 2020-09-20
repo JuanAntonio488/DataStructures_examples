@@ -12,8 +12,27 @@ boolean checkBST(Mode root, int min, int max){
 boolean checkBST(Node root){
   return checkBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
 }
-
-/*Option 2*/
+//----------------------------------------------------------------------------------------------------------------------------------------------
+/*Option 2 (Only Methods)*/
+public static void binarySearch(int arr[], int first, int last, int key){  
+   int mid = (first + last)/2;  
+   while( first <= last ){  
+      if ( arr[mid] < key ){  
+        first = mid + 1;     
+      }else if ( arr[mid] == key ){  
+        System.out.println("Element is found at index: " + mid);  
+        break;  
+      }else{  
+         last = mid - 1;  
+      }  
+      mid = (first + last)/2;  
+   }  
+   if ( first > last ){  
+      System.out.println("Element is not found!");  
+   }  
+ }  
+//----------------------------------------------------------------------------------------------------------------------------------------------
+/*Option 3*/
 // Java implementation of recursive Binary Search 
 class BinarySearch { 
 	// Returns index of x if it is present in arr[l.. 
