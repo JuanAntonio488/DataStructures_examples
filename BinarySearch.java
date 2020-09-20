@@ -1,3 +1,8 @@
+/*
+How to implement Binary Search?
+URL: https://www.youtube.com/watch?v=i_Q0v_Ct5lY&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=6
+*/
+
 /*Option 1 (Only Methods)*/
 boolean checkBST(Mode root, int min, int max){
   if (root == null){
