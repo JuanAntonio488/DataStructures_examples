@@ -1,3 +1,9 @@
+  
+/*
+How to implement a Queue?
+URL: https://www.youtube.com/watch?v=wjI1WNcIntg&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=3
+*/
+
 public class Queue{
   private static class Node{
     private int data;
@@ -38,4 +44,3 @@ public class Queue{
     return data;
   }
 }
-
