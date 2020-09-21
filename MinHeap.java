@@ -1,4 +1,7 @@
-// Java implementation of Min Heap 
+/*
+How to implement a Min Heap?
+URL: https://www.youtube.com/watch?v=t0Cq6tVNRBA&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=10&pbjreload=101
+*/
 public class MinHeap { 
 	private int[] Heap; 
 	private int size; 
